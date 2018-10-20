@@ -31,8 +31,8 @@ class ViewController: UIViewController {
         // アプリを起動して5秒後に通知を送る
         
         var fireDate = DateComponents()
-        fireDate.hour = 10
-        fireDate.minute = 9
+        fireDate.hour = 21
+        fireDate.minute = 45
         
         let trigger = UNCalendarNotificationTrigger(dateMatching: fireDate, repeats: false)
         
